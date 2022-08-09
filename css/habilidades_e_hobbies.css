@@ -1,0 +1,27 @@
+/*section habilidades e hobbies*/
+
+.habilidades__container,
+.hobbies__container{
+    display: flex;
+    justify-content: center;
+    
+}
+.habilidades__caixa,
+.hobbies__caixa{
+    width: 176px;
+    height: 174px;
+    margin: 10px;
+    background-color:var(--cor-da-caixa);
+    
+}
+.habilidades__img,
+.hobbies__img{
+    margin-top: 40%;
+    padding:5%;
+    box-sizing: border-box;
+
+}
+.habilidades__nome,
+.hobbies__nome{
+    padding:5% 
+}

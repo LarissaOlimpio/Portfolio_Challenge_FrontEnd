@@ -1,0 +1,28 @@
+/*section formação acadêmica*/
+.formacao__caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-de-fundo-azul);
+    margin-left: -20%;
+    margin-right: -20%;
+    width: auto;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 40px;
+}
+.formacao__nome{
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+}
+.formacao__cursos{
+    list-style: disc;
+    margin-left: 20px;
+}
+.formacao__cursos__js{
+    list-style: disc;
+    margin-left: 50px;
+}

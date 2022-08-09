@@ -1,0 +1,67 @@
+/*section contato*/
+.contato{
+    margin-left: -20%;
+    margin-right: -20%;
+    width: auto;
+    color: var(--cor-da-fonte);
+    background: var(--cor-de-fundo-azul);
+    padding: 50px;
+    box-sizing: border-box;
+    
+    
+    
+}
+.contato__titulo{
+    color: var(--cor-da-fonte);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    
+}
+.contato__conteudo{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+}
+.contato__formulario{
+    /*margin-left: 20px;*/
+    width: 45%;
+    
+}
+.contato__form__campos{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+.form__input,
+.form__textarea,
+.form__botao{
+    margin-top: 40px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    box-sizing: border-box;
+}
+.form__botao{
+    width: 165px;
+    height: 51px;
+    font-size: 16px;
+    background-color: var(--cor-do-botao-azul);
+    color: var(--cor-de-fundo);
+    border: none;
+    transition: 0.5s;
+}
+.form__botao:hover{
+    width: 175px;
+    height: 58px;
+    font-size: 18px;
+    cursor: pointer;
+
+}

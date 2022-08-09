@@ -1,0 +1,63 @@
+.experiencia__caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.experiencia__nome{
+    text-align: left;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--cor-da-fonte);
+    width: 348px;
+    height: 26px;
+    margin-left: 20px;
+}
+.forca__nome{
+    width: 368px;
+    height: 52px;
+}
+.experiencia__projeto{
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--cor-da-fonte);
+    padding: 10px;
+    width: 348px;
+    height: 19px;
+    margin-left: 10px;
+}
+.forca__projeto{
+    width: 368px;
+    height: 19px;
+}
+.jogo_da_forca{
+    flex-direction: row-reverse;
+}
+.experiencia__botao--repositório,
+.experiencia__botao--demo{
+    width: 105px;
+    height: 51px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.experiencia__botao--repositório:hover,
+.experiencia__botao--demo:hover{
+    width: 110px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.experiencia__botao--repositório{
+    color: var(--cor-do-botao-azul);
+    border-color: var(--cor-do-botao-azul);
+    border-width: 1px;
+    margin-left: 20px;
+}
+.experiencia__botao--demo{
+    background-color: var(--cor-do-botao-azul);
+    color: var(--cor-de-fundo);
+    border: none;
+}

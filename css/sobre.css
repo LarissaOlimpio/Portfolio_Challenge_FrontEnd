@@ -1,0 +1,27 @@
+/*section sobre mim*/
+.sobre{
+    margin-left: -20%;
+    margin-right: -20%;
+    width: auto;
+    color: var(--cor-da-fonte);
+    background: var(--cor-de-fundo-azul);
+    
+}
+.sobre__titulo{
+    color: var(--cor-da-fonte);
+    padding-bottom: 40px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.sobre__texto{
+    padding: 40px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    width: 40%;
+    margin: 0 18%;
+    
+}

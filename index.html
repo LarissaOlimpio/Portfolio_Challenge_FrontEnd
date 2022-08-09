@@ -7,8 +7,7 @@
     
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <!--
-    <script src="javascript/" defer></script> -->
+    
     <link rel="shortcut icon" href="assets/favico_ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -21,6 +20,8 @@
     <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <script src="javascript/main.js" defer></script>
+    
 
     <title>Portifólio</title>
 
@@ -237,12 +238,18 @@
                     <h3>Quer entrar em contato comigo?</h3>
                     <h3>Preencha o formulário que entrarei em contato o mais rápido possível</h3>
                 
-                    <form class="contato__form__campos">
-                        <input type="text" class="form__input" id = "nome"placeholder="nome"required>
-                        <input type="email" class="form__input" id = "email"placeholder="exemplo@dominio.com" required>
-                        <input type="text" class="form__input" id = "assunto"placeholder="assunto" required>
+                    <form class="contato__form__campos" autocomplete="off">
+                        <input type="text" class="form__input" id = "nome"  required>
+                        <span class="form__label--nome label__flutuante">Nome</span>
+
+                        <input type="email" class="form__input" id = "email"  required>
+                        <span class="form__label--email label__flutuante">Email</span>
+
+                        <input type="text" class="form__input" id = "assunto"  required>
+                        <span class="form__label--assunto label__flutuante">Assunto</span>
+
                         <textarea class="form__textarea"id="mensagem" cols="40" rows="5" placeholder="Digite sua mensagem" required></textarea>
-                        <button class="form__botao">Enviar mensagem</button>
+                        <button class="form__botao" id = "botao">Enviar mensagem</button>
                     </form>
                 </div>
             </div>
@@ -256,5 +263,6 @@
         </section>
 
     </div>
+    
 </body>
 </html>

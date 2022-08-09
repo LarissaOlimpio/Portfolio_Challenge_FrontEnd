@@ -51,13 +51,13 @@
     cursor: pointer;
 }
 .experiencia__botao--repositório{
-    color: var(--cor-do-botao-azul);
-    border-color: var(--cor-do-botao-azul);
+    color: var(--cor-azul);
+    border-color: var(--cor-azul);
     border-width: 1px;
     margin-left: 20px;
 }
 .experiencia__botao--demo{
-    background-color: var(--cor-do-botao-azul);
+    background-color: var(--cor-azul);
     color: var(--cor-de-fundo);
     border: none;
 }

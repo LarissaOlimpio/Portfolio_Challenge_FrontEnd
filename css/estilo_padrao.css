@@ -1,14 +1,14 @@
 :root{
-    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
    --cor-da-caixa: #FFFFFF;
    --cor-da-fonte:#464646;
    --cor-de-fundo-azul:#EAF2FD;
    --cor-azul: #2A7AE4;
-   --form-borda: #C8C8C8;
+   --cor-aviso: #df2525;
    --cor--placeholder: #A2A2A2;
+   --form-borda: #C8C8C8;
+   
 }
 body {
     box-sizing: border-box;
@@ -44,7 +44,10 @@ a{
     font-size: 32px;
     line-height: 38px;
 }
-
+.ocultar{
+    transition: all 1s;
+    display: none;
+}
 
 
 

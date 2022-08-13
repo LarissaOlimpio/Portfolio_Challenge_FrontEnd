@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/rodape.css">
-    <script src="javascript/main.js" defer></script>
+    
     
 
     <title>Portifólio</title>
@@ -239,16 +239,24 @@
                     <h3>Preencha o formulário que entrarei em contato o mais rápido possível</h3>
                 
                     <form class="contato__form__campos" autocomplete="off">
-                        <input type="text" class="form__input" id = "nome"  required>
-                        <span class="form__label--nome label__flutuante">Nome</span>
-
-                        <input type="email" class="form__input" id = "email"  required>
-                        <span class="form__label--email label__flutuante">Email</span>
-
-                        <input type="text" class="form__input" id = "assunto"  required>
-                        <span class="form__label--assunto label__flutuante">Assunto</span>
-
-                        <textarea class="form__textarea"id="mensagem" cols="40" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                       
+                            <div class="contato__input__container invalido">
+                                <input type="text" class="form__input" id = "nome" data-tipo="nome" required>
+                                 <label for="nome" class="form__label--nome label__flutuante" >Nome</label>
+                                 <span class="input-mensagem-erro"></span>
+                            </div>
+                            <div class="contato__input__container invalido">
+                                <input type="email" class="form__input" id = "email"  data-tipo ="email" required>
+                                 <label for="email" class="form__label--email label__flutuante">Email</label>
+                                 <span class="input-mensagem-erro"></span>
+                            </div>
+                            <div class="contato__input__container invalido">
+                                <input type="text" class="form__input" id = "assunto" data-tipo="assunto" required>
+                                 <label for="assunto" class="form__label--assunto label__flutuante">Assunto</label>
+                                 <span class="input-mensagem-erro"></span>
+                            </div>
+                            <textarea class="form__textarea"id="mensagem" cols="60" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                       
                         <button class="form__botao" id = "botao">Enviar mensagem</button>
                     </form>
                 </div>
@@ -263,6 +271,6 @@
         </section>
 
     </div>
-    
+    <script src="javascript/app.js" type="module"></script>
 </body>
 </html>

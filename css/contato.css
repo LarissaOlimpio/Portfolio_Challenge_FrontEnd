@@ -39,10 +39,14 @@
     border-radius: 4px;
     
 }
+.contato__input__container, input{
+   width: 100%;
+}
+
 .form__input,
 .form__textarea,
 .form__botao{
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 15px;
     resize: none;
     border: none;
@@ -67,10 +71,8 @@
     font-size: 12px;
     color: var(--cor-azul);
 }
-
 .label__flutuante{
     position: relative;
-    /*bottom: 3.2rem;*/
     bottom: 50px;
     left: 15px;
     pointer-events: none;
@@ -79,6 +81,18 @@
     transition: 0.2s ease all;
     color: var(--cor--placeholder);
 }
+
+.input-mensagem-erro{
+    display: none;
+}
+.input-container--invalido,
+.input-mensagem-erro {
+    color: var(--cor-aviso);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
 .form__botao{
     width: 165px;
     height: 51px;

@@ -1,28 +1,71 @@
-/*section formação acadêmica*/
-.formacao__caixa{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.formacao{
     background-color: var(--cor-de-fundo-azul);
-    margin-left: -20%;
-    margin-right: -20%;
-    width: auto;
-    line-height: 25px;
-    font-weight: 400;
-    font-size: 16px;
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    
+}
+.formacao__titulo{
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.formacao__img{
+    width: 296px;
+    height: 118px;
+    background-image: url('../assets/alura_pequeno.png');
+    background-repeat: no-repeat;
+
 }
 .formacao__nome{
     color: var(--cor-da-fonte);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 1rem;
+    line-height: 1.3rem;
 }
 .formacao__cursos{
+    color: var(--cor-da-fonte);
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
     list-style: disc;
-    margin-left: 20px;
+    margin-left: 1rem;
 }
-.formacao__cursos__js{
+.formacao__cursos__sub{
+    color: var(--cor-da-fonte);
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
     list-style: disc;
-    margin-left: 50px;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 1024px){
+    .formacao__titulo{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .formacao__img{
+        width: 368px;
+        height: 286px;
+        background-image: url('../assets/alura.png');
+    }
+    .formacao__nome{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .formacao__cursos,
+    .formacao__cursos__sub{
+        font-size: 0.9rem;
+        line-height: 1.3rem
+    }
+
+   
+
+    
+
 }

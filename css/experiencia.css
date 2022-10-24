@@ -1,63 +1,130 @@
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    
+}
+.experiencia__titulo{
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
 .experiencia__caixa{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding-bottom: 40px;
+    
+}
+.experiencia__imagem-decodificador{
+
+    height: 144px;
+    width: 296px;
+    background-image: url('../assets/codificador-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.experiencia__imagem-forca{
+
+    height: 144px;
+    width: 296px;
+    background-image: url('../assets/forca-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.experiencia__descricao{
+    width: 296px;
 }
 .experiencia__nome{
-    text-align: left;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
     color: var(--cor-da-fonte);
-    width: 348px;
-    height: 26px;
-    margin-left: 20px;
-}
-.forca__nome{
-    width: 368px;
-    height: 52px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding-top: 0.5rem;
+
 }
 .experiencia__projeto{
-    text-align: left;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
     color: var(--cor-da-fonte);
-    padding: 10px;
-    width: 348px;
-    height: 19px;
-    margin-left: 10px;
-}
-.forca__projeto{
-    width: 368px;
-    height: 19px;
-}
-.jogo_da_forca{
-    flex-direction: row-reverse;
-}
-.experiencia__botao--repositório,
-.experiencia__botao--demo{
-    width: 105px;
-    height: 51px;
-    font-size: 16px;
-    transition: 0.5s;
-}
-.experiencia__botao--repositório:hover,
-.experiencia__botao--demo:hover{
-    width: 110px;
-    height: 60px;
-    font-size: 18px;
-    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 .experiencia__botao--repositório{
     color: var(--cor-azul);
     border-color: var(--cor-azul);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding:  0.7rem 1rem;
+    font-size: 0.8rem;
     border-width: 1px;
-    margin-left: 20px;
+    
 }
 .experiencia__botao--demo{
     background-color: var(--cor-azul);
     color: var(--cor-de-fundo);
     border: none;
+    font-size: 0.8rem;
+    padding: 0.7rem 1rem;
+}
+@media screen and (min-width:768px)  {
+
+    .experiencia__imagem-decodificador{
+        width: 704px;
+        height: 600px;
+        background-image: url('../assets/codificador.png');
+        
+    }
+    .experiencia__nome{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .experiencia__imagem-forca{
+        width: 704px;
+        height: 450px;
+        background-image: url('../assets/forca.png');
+       
+    }
+    .experiencia__descricao{
+        width: 704px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .experiencia__titulo{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .experiencia__caixa{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .jogo_da_forca{
+        flex-direction: row-reverse;
+    }
+    .experiencia__imagem-decodificador{
+        width: 800px;
+        height: 500px;
+        background-image: url('../assets/codificador.png');
+        
+    }
+    .experiencia__imagem-forca{
+        width: 800px;
+        height: 500px;
+        background-image: url('../assets/forca.png');
+       
+    }
+    .experiencia__descricao{
+        width: 360px;
+        height: 52px;
+        padding: 1.5rem;
+    }
+    .experiencia__botao--demo,
+    .experiencia__botao--repositório{
+        width: 105px;
+        height: 51px;
+    }
+    
 }

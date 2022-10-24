@@ -1,4 +1,13 @@
-.rodape__autor{
+/*.rodape__autor{
     text-align: center;
     padding: 30px;
+}*/
+.rodape__autor{
+    color: var(--cor-da-fonte);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

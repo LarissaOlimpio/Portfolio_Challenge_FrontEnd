@@ -1,27 +1,62 @@
-/*section habilidades e hobbies*/
-
-.habilidades__container,
-.hobbies__container{
+.habilidades,
+.hobbies{
     display: flex;
-    justify-content: center;
+    flex-direction: column;  
+    padding-left: 10%;
+    padding-right: 10%;
     
+}
+.habilidades__titulo,
+.hobbies__titulo{
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.habilidades__conteudo,
+.hobbies__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+     
 }
 .habilidades__caixa,
 .hobbies__caixa{
-    width: 176px;
-    height: 174px;
-    margin: 10px;
+    width: 126px;
+    height: 108px;
     background-color:var(--cor-da-caixa);
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     
-}
-.habilidades__img,
-.hobbies__img{
-    margin-top: 40%;
-    padding:5%;
-    box-sizing: border-box;
-
 }
 .habilidades__nome,
 .hobbies__nome{
-    padding:5% 
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+@media screen and (min-width: 1024px){
+    .habilidades__titulo,
+    .hobbies__titulo{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .habilidades__conteudo,
+    .hobbies__conteudo{
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .habilidades__caixa,
+    .hobbies__caixa{
+        width: 176px;
+        height: 174px;
+
+    }
+    
 }

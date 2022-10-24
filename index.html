@@ -8,10 +8,11 @@
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     
-    <link rel="shortcut icon" href="assets/favico_ico.ico" type="image/x-icon">
+    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilo_padrao.css">
+    <link rel="shortcut icon" href="assets/favico_ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/titulo.css">
     <link rel="stylesheet" href="css/sobre.css">
@@ -20,38 +21,36 @@
     <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/rodape.css">
-    
-    
-
     <title>Portifólio</title>
 
 </head>
 <body>
     <div class="pagina">
         
-        <section class="menu">
-            <div class="menu__container">
-                <header class="menu__cabecalho">
-                    <img class="menu__imagem"src="assets/vector.png" alt="imagem">
-                    <h3 class="menu__nome">Larissa Aparecida Olimpio</h3>
-                </header>
+        <section class="menu container">
+            
+            <header class="menu__cabecalho">
+                <img class="menu__imagem"src="assets/vector.png" alt="imagem">
+                <h3 class="menu__nome">Larissa Aparecida Olimpio</h3>
+                    
                 <nav>
                     <ul class="menu__nav">
-                        <li class="menu__item"><a href="#sobremim">Sobre mim</a></li>
-                        <li class="menu__item"><a href="#habilidades">Skills</a></li>
-                        <li class="menu__item"><a href="#hobbies">Hobbies</a></li>
-                        <li class="menu__item"><a href="#formacao">Formações e Cursos</a></li>
-                        <li class="menu__item"><a href="#experiencia">Experiência</a></li>
-                        <li class="menu__item"><a href="#contato">lrsolimpio@gmail.com</a></li>
-                    </ul>
+                        <li class="menu__item  mobile"><a href="#sobremim ">Sobre mim</a></li>
+                        <li class="menu__item mobile"><a href="#habilidades">Skills</a></li>
+                        <li class="menu__item mobile"><a href="#hobbies">Hobbies</a></li>
+                        <li class="menu__item mobile"><a href="#formacao">Formações e Cursos</a></li>
+                        <li class="menu__item mobile"><a href="#experiencia">Experiência</a></li>
+                        <li class="menu__item "><a href="#contato">lrsolimpio@gmail.com</a></li>
+                        </ul>
                 </nav>
-            </div>
+            </header>
+            
         </section>
 
-        <section class="titulo">
+        <section class="titulo container">
             
-            <div class="titulo__container">
-                <div class="titulo__img"><img src="assets/foto_perfil.png" alt="foto de perfil"></div>
+            <div class="titulo ">
+                <div><img src="assets/foto_perfil.png" alt="foto de perfil" class="titulo__img"></div>
                 <div class="titulo__caixa">
                     <h2 class="titulo__apresentacao">Olá, meu nome é Larissa Olimpio e construo páginas web</h2>
                     <h3 class="titulo__descricao">Eu sou estudante no projeto Oracle ONE na Alura.</h3>
@@ -69,7 +68,7 @@
 
         </section>
 
-        <section class="sobre" >
+        <section class="sobre container" >
             
             <div class="sobre__texto" >
                 <h3 class="sobre__titulo">Sobre mim</h3>
@@ -80,9 +79,11 @@
            
         </section>
 
-        <section class="habilidades" id="habilidades">
+        <section class="habilidades container" id="habilidades">
+
             <h3 class="habilidades__titulo">Skills</h3>
-            <div class="habilidades__container">
+          
+            <div class="habilidades__conteudo">
 
                 <div class="habilidades__caixa">
                     <ul>
@@ -95,13 +96,6 @@
                     <ul>
                         <li class="habilidades__img"> <img src="assets\js_icon.png" alt=""></li>
                         <li class="habilidades__nome">Javascript</li>
-                    </ul>
-                </div>
-
-                <div class="habilidades__caixa">
-                    <ul>
-                        <li class="habilidades__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                        <li class="habilidades__nome">Node JS</li>
                     </ul>
                 </div>
 
@@ -122,10 +116,10 @@
 
         </section>
         <!-- Sessão de Hobbies -->
-        <section class="hobbies" id="hobbies">
+        <section class="hobbies container" id="hobbies">
             <h3 class="hobbies__titulo">Hobbies</h3>
 
-                <div class="hobbies__container">
+                <div class="hobbies__conteudo">
                 
                     <div class="hobbies__caixa">
                         <ul>
@@ -155,80 +149,69 @@
                         </ul>
                     </div>
 
-                    <div class="hobbies__caixa">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                            <li class="hobbies__nome">Tirar fotos</li>
-                        </ul>
-                    </div>
             </div>
         </section>
 
-            <section class="formacao" id="formacao">
+            <section class="formacao container" id="formacao">
                 <h3 class="formacao__titulo">Formação</h3>
                 <div class="formacao__caixa">
+                    <ul class="formacao__lista">
+                        
+                        <li class="formacao__img"></li>
 
-                    <div class="formacao__imagem">
-                        <img class="formacao__img" src="assets/alura.png" alt="logo alura">
-                    </div>
+                        <li class="formacao__nome"><h4 >Alura: Formação Front-end (2022)</h4></li>
 
-                    <div class="formacao__cursos">
-                        <h4 class="formacao__nome">Alura: Formação Front-end </h4>
-                        <p class="formacao__subtitulo">2022</p>
-
-                        <ul class="formacao__lista">
-                            <li class="formacao__cursos">Lógica de programação I </li>
-                            <li class="formacao__cursos">Lógica de programação II</li>
-                            <li class="formacao__cursos">Git e GitHub: Controle e compartilhe seu código</li>
-                            <li class="formacao__cursos">HTML5 e CSS3 parte 1, 2, 3 e 4</li>
-                            <li class="formacao__cursos">JavaScript</li>
-                                <ul class="formacao__sublista">
-                                    <li class="formacao__cursos__js">Crud</li>
-                                    <li class="formacao__cursos__js">Programação orientada a objetos</li>
-                                    <li class="formacao__cursos__js">Manipule o DOM com JavaScript</li>
-                                </ul>
+                        <li class="formacao__cursos">Lógica de programação I </li>
+                        <li class="formacao__cursos">Lógica de programação II</li>
+                        <li class="formacao__cursos">Git e GitHub: Controle e compartilhe seu código</li>
+                        <li class="formacao__cursos">HTML5 e CSS3 parte 1, 2, 3 e 4</li>
+                        <li class="formacao__cursos">JavaScript</li>
+                            <ul class="formacao__sublista">
+                                <li class="formacao__cursos__sub">Crud</li>
+                                <li class="formacao__cursos__sub">Programação orientada a objetos</li>
+                                <li class="formacao__cursos__sub">Manipule o DOM com JavaScript</li>
+                            </ul>
                             
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
             </section>
          <!-- Sessão de Experiência Profissional/Projetos-->
-        <section class="experiencia" id="experiencia">
+        <section class="experiencia container" id="experiencia">
             <h3 class="experiencia__titulo">Experiência</h3>
            
             <div class="experiencia__caixa">
-            
-                <img classe="experiencia__img" src="assets/codificador.png" alt="imagem do codificador">
+
+                <div class="experiencia__imagem-decodificador"> </div>
 
                 <div class="experiencia__descricao">
-                    <h3 class="experiencia__nome">Decodificador de texto</h3>
+                    <h2 class="experiencia__nome">Decodificador de texto</h2>
                     <h3 class="experiencia__projeto">Challenge alura Codificador</h3>
                     
                     <div classe="experiencia__repositorio">
-                        <span class="experiencia__repo"><a href="https://github.com/LarissaOlimpio/Decodificador_de_texto_Challenge"target="_blank"><button class="experiencia__botao--repositório">Repositório</button></a></span>
-                        <span class="experiencia__demo"><a href="https://larissaolimpio.github.io/Decodificador_de_texto_Challenge/"target="_blank"><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                        <span><a href="https://github.com/LarissaOlimpio/Decodificador_de_texto_Challenge"target="_blank"><button class="experiencia__botao--repositório">Repositório</button></a></span>
+                        <span><a href="https://larissaolimpio.github.io/Decodificador_de_texto_Challenge/"target="_blank"><button class="experiencia__botao--demo">Ver demo</button></a></span>
                     </div>
                 </div>
             </div>
 
             <div class="experiencia__caixa jogo_da_forca">
 
-                <img classe="experiencia__img" src="assets/forca.png" alt="imagem do jogo da forca">
+                <div class="experiencia__imagem-forca"> </div>
 
                 <div class="experiencia__descricao">
-                    <h3 class="experiencia__nome forca__nome">Jogo da Forca criado com CSS, HTML e JavaScript</h3>
+                    <h2 class="experiencia__nome">Jogo da Forca criado com CSS, HTML e JavaScript</h2>
                     <h3 class="experiencia__projeto forca__projeto">Challenge Oracle</h3>
 
                     <div classe="experiencia__descrição">
-                        <span class="experiencia__repo"><a href="https://github.com/LarissaOlimpio/Jogo_da_Forca_Sprint2"target="_blank"><button class="experiencia__botao--repositório">Repositório</button></a></span>
-                        <span class="experiencia__demo"><a href="https://larissaolimpio.github.io/Jogo_da_Forca_Sprint2/"target="_blank"><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                        <span><a href="https://github.com/LarissaOlimpio/Jogo_da_Forca_Sprint2"target="_blank"><button class="experiencia__botao--repositório">Repositório</button></a></span>
+                        <span><a href="https://larissaolimpio.github.io/Jogo_da_Forca_Sprint2/"target="_blank"><button class="experiencia__botao--demo">Ver demo</button></a></span>
                     </div>
                 </div>
             </div>
         
         </section>
 
-        <section class="contato" id="contato">
+        <section class="contato container" id="contato">
             <h3 class="contato__titulo">Contato</h3>
             <div class="contato__conteudo">
                 <div class="contato__imagem">

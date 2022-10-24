@@ -8,12 +8,13 @@
    --cor-aviso: #df2525;
    --cor--placeholder: #A2A2A2;
    --form-borda: #C8C8C8;
+   --tipo-da-fonte:'Raleway',sans-serif;
    
 }
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
+    font-family: var(--tipo-da-fonte);
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -25,13 +26,20 @@ a{
     text-decoration: none;
     color: var(--cor-de-link);
 }
-/*div Página*/
+/*.container{
+    padding-right: 6%;
+    padding-left: 6%;
+    
+    
+}*/
+/*comentei a parte desktop
+/*div Página
 .pagina{
     width: 80%;
 	margin: 0 auto;
 }
 
-/*estilo dos títulos*/
+/*estilo dos títulos
 
 .habilidades__titulo, 
 .hobbies__titulo, 
@@ -48,7 +56,7 @@ a{
     transition: all 1s;
     display: none;
 }
-
+*/
 
 
 

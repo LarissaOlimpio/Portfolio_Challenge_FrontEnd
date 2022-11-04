@@ -9,5 +9,5 @@ Utilizei HTML5, CSS3 e JavaScript para desenvolver Meu Portfolio com layout resp
 | :rocket: URL         |  https://larissaolimpio.github.io/Portfolio_Challenge_FrontEnd/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-#vitrinedev)
+![portfolio-github](https://user-images.githubusercontent.com/50180854/200090689-bc613ca7-1538-481f-ba36-481e7efd0f3e.png#vitrinedev)
 

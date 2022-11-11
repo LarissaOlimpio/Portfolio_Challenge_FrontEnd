@@ -229,13 +229,34 @@
                                  <span class="input-mensagem-erro"></span>
                             </div>
                             <div class="contato__input__container invalido">
-                                <input type="email" class="form__input" id = "email"  data-tipo ="email" required>
+                                <input type="email" class="form__input" id = "email"  data-tipo="email" required>
                                  <label for="email" class="form__label--email label__flutuante">Email</label>
                                  <span class="input-mensagem-erro"></span>
                             </div>
                             <div class="contato__input__container invalido">
                                 <input type="text" class="form__input" id = "assunto" data-tipo="assunto" required>
                                  <label for="assunto" class="form__label--assunto label__flutuante">Assunto</label>
+                                 <span class="input-mensagem-erro"></span>
+                            </div>
+                            <!--Informações de Endereço-->
+                            <div class="contato__input__container invalido">
+                                <input type="cep" class="form__input" id = "cep" data-tipo="cep" pattern="[\d]{5}-?[\d]{3}" required>
+                                 <label for="cep" class="form__label--cep label__flutuante">Cep</label>
+                                 <span class="input-mensagem-erro"></span>
+                            </div>
+                            <div class="contato__input__container invalido">
+                                <input type="logradouro" class="form__input" id = "logradouro" data-tipo="logradouro" required>
+                                 <label for="logradouro" class="form__label--logradouro label__flutuante">Logradouro</label>
+                                 <span class="input-mensagem-erro"></span>
+                            </div>
+                            <div class="contato__input__container invalido">
+                                <input type="cidade" class="form__input" id = "cidade" data-tipo="cidade" required>
+                                 <label for="cidade" class="form__label--cidade label__flutuante">Cidade</label>
+                                 <span class="input-mensagem-erro"></span>
+                            </div>
+                            <div class="contato__input__container invalido">
+                                <input type="estado" class="form__input" id = "estado" data-tipo="estado" required>
+                                 <label for="estado" class="form__label--estado label__flutuante">Estado</label>
                                  <span class="input-mensagem-erro"></span>
                             </div>
                             <textarea class="form__textarea"id="mensagem" cols="60" rows="5" placeholder="Digite sua mensagem" required></textarea>

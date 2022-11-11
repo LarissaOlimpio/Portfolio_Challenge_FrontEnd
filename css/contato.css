@@ -62,7 +62,21 @@
 #email:not(:focus):valid~.form__label--email,
 
 #assunto:focus~.form__label--assunto,
-#assunto:not(:focus):valid~.form__label--assunto{
+#assunto:not(:focus):valid~.form__label--assunto,
+
+#cep:focus~.form__label--cep,
+#cep:not(:focus):valid~.form__label--cep,
+
+#logradouro:focus~.form__label--logradouro,
+#logradouro:not(:focus):valid~.form__label--logradouro,
+
+#cidade:focus~.form__label--cidade,
+#cidade:not(:focus):valid~.form__label--cidade,
+
+#estado:focus~.form__label--estado,
+#estado:not(:focus):valid~.form__label--estado{
+
+
     font-size: 0.7rem;
     color: var(--cor-azul);
 }

@@ -26,37 +26,7 @@ a{
     text-decoration: none;
     color: var(--cor-de-link);
 }
-/*.container{
-    padding-right: 6%;
-    padding-left: 6%;
-    
-    
-}*/
-/*comentei a parte desktop
-/*div Página
-.pagina{
-    width: 80%;
-	margin: 0 auto;
-}
 
-/*estilo dos títulos
-
-.habilidades__titulo, 
-.hobbies__titulo, 
-.formacao__titulo,
-.experiencia__titulo{
-    padding: 40px;
-    color: var(--cor-da-fonte);
-    text-align: center;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-}
-.ocultar{
-    transition: all 1s;
-    display: none;
-}
-*/
 
 
 

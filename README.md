@@ -12,7 +12,7 @@ Até o momento o projeto não esta sendo utilizando flexbox para organizar os el
 | -------------  | --- |
 | :sparkles: Nome        | **Portfolio**
 | :label: Tecnologias | JavaScript, HTML5, CSS3 (tecnologias utilizadas)
-| :rocket: URL         |  https://larissaolimpio.github.io/Portfolio_Challenge_FrontEnd/
+| :rocket: URL         |  portfolio-challenge-front-oht56wlsw-larissaolimpio.vercel.app
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![portfolio-github](https://user-images.githubusercontent.com/50180854/200090689-bc613ca7-1538-481f-ba36-481e7efd0f3e.png#vitrinedev)

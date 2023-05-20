@@ -4,9 +4,9 @@
 
 Terceiro Challenge da trilha Front-End do Programa ONE, parceria da Alura com a Oracle. 
 Portfolio é uma página sobre minha trajetória como desenvolvedora com layout responsivo (conceito de mobile first) onde eu coloquei alguns dos projetos que havia concluído até esta etapa do curso, além dos meus hobbies, cursos feitos na alura na trila FrontEnd e a faculdade onde estou cursando Análise e Desenvolvimento de Sistemas. Ao final da página encontra se um formulário, onde fiz as validações com JavaScript, e realizei o preenchimento automático do cep por meio do consumo da API : Via cep.
-Até o momento o projeto não esta sendo utilizando flexbox para organizar os elementos da página, porém agora que possuo um bom conhecimento na área do FrontEnd estou refatorando para entregar uma melhor experiência para o usuário. Em breve novas atualizações.
 
-> Processo de Refatoração
+
+
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
